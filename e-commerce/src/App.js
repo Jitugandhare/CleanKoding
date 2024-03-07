@@ -1,10 +1,12 @@
-
-import ProductsListing from "./components/ProductsListing";
+import React from 'react';
+import ProductListing from './components/ProductsListing';
 
 function App() {
-  return <div>
-    <ProductsListing />
-  </div>;
+  return (
+    <div className="App">
+      <ProductListing />
+    </div>
+  );
 }
 
 export default App;
